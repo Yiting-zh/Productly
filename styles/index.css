@@ -1,0 +1,167 @@
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+
+}
+
+.container {
+  max-width: 1126px;
+  margin: 0 auto;
+}
+
+nav ul{
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  gap: 20px;
+}
+
+.title {
+  color: #1b0a42;
+  font-size: 72px;
+  font-family: "Ramaraja", serif;
+  font-weight: bold;
+  text-align: left;
+  vertical-align: top;
+  max-width: 495px;
+  width: 100%;
+  letter-spacing: 0.02em;
+  }
+
+
+  .info {
+    font-size: 20px;
+    color: #9a9a9a;
+    font-family: "Roboto", serif;
+    font-weight: 400;
+    text-align: left;
+    vertical-align: top;
+    margin-top: 5px;
+    max-width: 486px;
+  }
+
+  .signin {
+    height: 46px;
+    width: 102px;
+    border: #BCD0E5;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #173A56;
+  }
+
+  .signup {
+    height: 46px;
+    width: 102px;
+    border: none;
+    background-color: #FF9900;
+    color: #FFFFFF;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+
+
+  .start {
+    height: 53px;
+    width: 175px1;
+    border: none;
+    background-color: #FF9900;
+    color: #FFFFFF;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    margin-left: 200px;
+  }
+
+  .link {
+    color: #FF9900;
+    margin-left: 200px;
+  }
+
+  .getstarted {
+    display: flex;
+    align-items:flex-start;
+    justify-content: flex-start;
+    flex-direction: row;
+
+  }
+
+  section {
+    display: inline-block;
+    margin-bottom: 100px;
+  }
+
+  .section1 {
+    display: flex;
+    margin-top: 100px;
+  }
+  .section2 {
+    display: flex;
+    justify-content: center;
+  }
+  .section3 {
+    display: flex;
+    justify-content: center;
+  }
+
+  .section4 {
+    display: flex;
+    justify-content: center;
+  }
+
+  .text {
+    max-width: 486px;
+    margin-left: 104px;
+    margin-right: 104px;
+  }
+
+  footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items:flex-end;
+    border-top: 1px solid #BCD0E5;
+    height: 308px;
+    margin-bottom: 83px;
+
+  }
+
+.logo{
+  width: 185px;
+  height: 32px;
+}
+
+  .column1 {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+  }
+
+form{
+  display: flex;
+  flex-direction: column;
+  gap: 21px;
+}
+
+  .sign-up-now {
+    height: 53px;
+    width: 175px;
+    border: none;
+    background-color: #FF9900;
+    color: #FFFFFF;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+
+  .email {
+    height: 48px;
+    width: 325px;
+    border: 1px solid #BCD0E5;
+    border-radius: 4px;
+  }
+  
+  ul li{
+    list-style: none;
+    color: #544837;
+  }
